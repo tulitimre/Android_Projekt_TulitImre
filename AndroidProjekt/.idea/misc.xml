@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Tulit Imre/AndroidStudioProjects/AndroidProjektProba3/app/src/main/res/layout/activity_2.xml" value="0.20199275362318841" />
+        <entry key="..\:/Users/Tulit Imre/AndroidStudioProjects/AndroidProjektProba3/app/src/main/res/layout/activity_etel_list_adapter.xml" value="0.19610507246376813" />
+        <entry key="..\:/Users/Tulit Imre/AndroidStudioProjects/AndroidProjektProba3/app/src/main/res/layout/activity_etel_minden_etteremben.xml" value="0.19610507246376813" />
+        <entry key="..\:/Users/Tulit Imre/AndroidStudioProjects/AndroidProjektProba3/app/src/main/res/layout/activity_etel_modosit.xml" value="0.20199275362318841" />
+        <entry key="..\:/Users/Tulit Imre/AndroidStudioProjects/AndroidProjektProba3/app/src/main/res/layout/activity_etel_tipus_alapjan.xml" value="0.19610507246376813" />
+        <entry key="..\:/Users/Tulit Imre/AndroidStudioProjects/AndroidProjektProba3/app/src/main/res/layout/activity_etel_torles.xml" value="0.20199275362318841" />
+        <entry key="..\:/Users/Tulit Imre/AndroidStudioProjects/AndroidProjektProba3/app/src/main/res/layout/activity_eteltipus_etteremben.xml" value="0.2368659420289855" />
+        <entry key="..\:/Users/Tulit Imre/AndroidStudioProjects/AndroidProjektProba3/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/Tulit Imre/AndroidStudioProjects/AndroidProjektProba3/app/src/main/res/layout/activity_uj_etel.xml" value="0.264" />
+        <entry key="..\:/Users/Tulit Imre/AndroidStudioProjects/AndroidProjektProba3/app/src/main/res/layout/activitytwo.xml" value="0.20199275362318841" />
+        <entry key="..\:/Users/Tulit Imre/AndroidStudioProjects/AndroidProjektProba3/app/src/main/res/layout/etel_minden_etteremben_list_row.xml" value="0.4" />
+        <entry key="..\:/Users/Tulit Imre/AndroidStudioProjects/AndroidProjektProba3/app/src/main/res/layout/eteltipusalapjan_row.xml" value="0.4" />
+        <entry key="..\:/Users/Tulit Imre/AndroidStudioProjects/AndroidProjektProba3/app/src/main/res/layout/eteltipusetteremben_list_row.xml" value="0.4" />
+        <entry key="..\:/Users/Tulit Imre/AndroidStudioProjects/AndroidProjektProba3/app/src/main/res/layout/ettermeklistview.xml" value="0.20199275362318841" />
+        <entry key="..\:/Users/Tulit Imre/AndroidStudioProjects/AndroidProjektProba3/app/src/main/res/layout/ettermeklistview_row.xml" value="0.4" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

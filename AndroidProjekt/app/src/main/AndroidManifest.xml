@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.androidprojekt">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AndroidProjektProba3"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name="com.example.androidprojekt.EtelModosit"
+            android:exported="false" />
+        <activity
+            android:name="com.example.androidprojekt.EtelTorles"
+            android:exported="false" />
+        <activity
+            android:name="com.example.androidprojekt.UjEtel"
+            android:exported="false" />
+        <activity
+            android:name="com.example.androidprojekt.EteltipusEtteremben"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.example.androidprojekt.EtelMindenEtteremben"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.example.androidprojekt.EtelListAdapter"
+            android:exported="false" />
+        <activity
+            android:name="com.example.androidprojekt.EtelTipusAlapjan"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.example.androidprojekt.EttermekActvity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.androidprojekt.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

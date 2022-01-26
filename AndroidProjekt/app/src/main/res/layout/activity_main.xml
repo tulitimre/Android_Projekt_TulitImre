@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/ujEtelBtn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="35dp"
+        android:backgroundTint="#8f1609"
+        android:text="Új Étel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eteltipusEtterembenBtn" />
+
+    <Button
+        android:id="@+id/etteremekbtn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#8f1609"
+        android:text="Éttermek"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/eteltipusalbtn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="35dp"
+        android:backgroundTint="#8f1609"
+        android:text="Étel típus alapjan"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etteremekbtn" />
+
+    <Button
+        android:id="@+id/etelmindenetterembenbtn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="35dp"
+        android:backgroundTint="#8f1609"
+        android:text="Étel Minden Étteremben"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eteltipusalbtn" />
+
+    <Button
+        android:id="@+id/eteltipusEtterembenBtn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="35dp"
+        android:backgroundTint="#8f1609"
+        android:text="Ételtipus Étteremben"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etelmindenetterembenbtn" />
+
+    <Button
+        android:id="@+id/deleteBtn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="35dp"
+        android:backgroundTint="#8f1609"
+        android:text="Étel törlése"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ujEtelBtn" />
+
+    <Button
+        android:id="@+id/etelModositBtn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="35dp"
+        android:backgroundTint="#8f1609"
+        android:text="Étel módosítása"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/deleteBtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
